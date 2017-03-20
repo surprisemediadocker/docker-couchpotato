@@ -6,7 +6,7 @@ mkdir -p \
 
 # install app
 [[ ! -d "/app/couchpotato/.git" ]] && \
-	git clone https://github.com/CouchPotato/CouchPotatoServer /app/couchpotato
+	git clone https://github.com/cyberden/CouchPotatoServer /app/couchpotato
 
 # permissions
 chown -R abc:abc \
